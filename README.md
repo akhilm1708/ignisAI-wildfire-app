@@ -1,1 +1,0 @@
-# ignisAI-wildfire-app
