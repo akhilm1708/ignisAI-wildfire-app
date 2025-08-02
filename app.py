@@ -17,7 +17,7 @@ uploaded_files = st.file_uploader("Upload Satellite Images", type=["jpg", "png"]
 for file in uploaded_files:
     if file is not None:
         # Display mage
-        image = Image.open(uploaded_file).convert("RGB")
+        image = Image.open(file).convert("RGB")
         st.image(image, caption="Uploaded Image", width=300)
     
         # Preprocess the image
