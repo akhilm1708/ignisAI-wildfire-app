@@ -7,8 +7,8 @@ from PIL import Image
 model = tf.keras.models.load_model("myfire_model.keras")
 
 # Set title/icon and layout
-st.set_page_config(page_title="IgnisAI", page_icon="🧿", layout="wide")
-st.title("🌲🧿🔥 IgnisAI: Wildfire Detection from Satellite Image")
+st.set_page_config(page_title="Ignis", page_icon="🧿", layout="wide")
+st.title("🌲🧿🔥 Wildfire Detection from Satellite Image")
 
 
 uploaded_files = st.file_uploader("Upload Satellite Images", type=["jpg", "png"], accept_multiple_files=True)
