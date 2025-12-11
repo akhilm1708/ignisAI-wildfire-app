@@ -14,6 +14,7 @@ st.title("🌲🧿🔥 Wildfire Detection from Satellite Image")
 uploaded_files = st.file_uploader("Upload Satellite Images", type=["jpg", "png"], accept_multiple_files=True)
 
 
+
 for file in uploaded_files:
     if file is not None:
         # Display mage
